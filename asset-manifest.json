@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/bbridals.github.io/static/css/main.3ea65a84.chunk.css",
-    "main.js": "/bbridals.github.io/static/js/main.30de0b0c.chunk.js",
-    "main.js.map": "/bbridals.github.io/static/js/main.30de0b0c.chunk.js.map",
+    "main.js": "/bbridals.github.io/static/js/main.28740c29.chunk.js",
+    "main.js.map": "/bbridals.github.io/static/js/main.28740c29.chunk.js.map",
     "runtime-main.js": "/bbridals.github.io/static/js/runtime-main.3f71d4d0.js",
     "runtime-main.js.map": "/bbridals.github.io/static/js/runtime-main.3f71d4d0.js.map",
     "static/js/2.756378ea.chunk.js": "/bbridals.github.io/static/js/2.756378ea.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.3f71d4d0.js",
     "static/js/2.756378ea.chunk.js",
     "static/css/main.3ea65a84.chunk.css",
-    "static/js/main.30de0b0c.chunk.js"
+    "static/js/main.28740c29.chunk.js"
   ]
 }
