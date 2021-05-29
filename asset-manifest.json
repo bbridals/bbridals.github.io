@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/bbridals.github.io/static/css/main.3ea65a84.chunk.css",
-    "main.js": "/bbridals.github.io/static/js/main.8e3b6df0.chunk.js",
-    "main.js.map": "/bbridals.github.io/static/js/main.8e3b6df0.chunk.js.map",
-    "runtime-main.js": "/bbridals.github.io/static/js/runtime-main.3f71d4d0.js",
-    "runtime-main.js.map": "/bbridals.github.io/static/js/runtime-main.3f71d4d0.js.map",
-    "static/js/2.756378ea.chunk.js": "/bbridals.github.io/static/js/2.756378ea.chunk.js",
-    "static/js/2.756378ea.chunk.js.map": "/bbridals.github.io/static/js/2.756378ea.chunk.js.map",
-    "index.html": "/bbridals.github.io/index.html",
-    "static/css/main.3ea65a84.chunk.css.map": "/bbridals.github.io/static/css/main.3ea65a84.chunk.css.map",
-    "static/js/2.756378ea.chunk.js.LICENSE.txt": "/bbridals.github.io/static/js/2.756378ea.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.3ea65a84.chunk.css",
+    "main.js": "/static/js/main.4c4edae6.chunk.js",
+    "main.js.map": "/static/js/main.4c4edae6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.08f8431c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.08f8431c.js.map",
+    "static/js/2.ed9e1c54.chunk.js": "/static/js/2.ed9e1c54.chunk.js",
+    "static/js/2.ed9e1c54.chunk.js.map": "/static/js/2.ed9e1c54.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.3ea65a84.chunk.css.map": "/static/css/main.3ea65a84.chunk.css.map",
+    "static/js/2.ed9e1c54.chunk.js.LICENSE.txt": "/static/js/2.ed9e1c54.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.3f71d4d0.js",
-    "static/js/2.756378ea.chunk.js",
+    "static/js/runtime-main.08f8431c.js",
+    "static/js/2.ed9e1c54.chunk.js",
     "static/css/main.3ea65a84.chunk.css",
-    "static/js/main.8e3b6df0.chunk.js"
+    "static/js/main.4c4edae6.chunk.js"
   ]
 }
