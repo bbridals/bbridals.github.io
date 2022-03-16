@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import {Content, Container, BrandLogo} from "./styling";
 
 const Weddings = (props) =>{
     document.title="Wedding Dresses"
@@ -46,46 +47,10 @@ const Weddings = (props) =>{
         <a href="https://www.morilee.com/browse/bridesmaids/" target="_blank" rel="noopener noreferrer">
             <BrandLogo src="/images/bridesmaids/morilee-logo.png" />
         </a>
-        <a href="https://venusbridal.co.uk/" target="_blank" rel="noopener noreferrer">
-            <BrandLogo src="/images/bridesmaids/venus-logo.png" />
-        </a>
         
     </Content>
     </Container>
 };
 
-const Container = styled.div`
-margin-top: 160px;
-display: flexbox;
-flex-flow: column wrap;
-overflow: block;
-justify-content: center;
-margin-bottom: 125px;
-`;
-
-const Content = styled.div`
-width: 50%;
-display: flex;
-flex-flow: column wrap;
-justify-content: center;
-align-items: center;
-align-content: space-around;
-text-align: center;
-`;
-
-const BrandLogo = styled.img`
-margin-top: 25px;
-max-width: 100%;
-border-radius: 4px;
-max-height: 90px;
-/* width: 200px; */
-transition: box-shadow .2s ease-in-out, transform .2s ease-in-out;
-
-&:hover{
-    box-shadow: 0px 0px 20px black;
-    opacity: 1;
-    transform: scale(1.1, 1.1);
-}
-`;
 
 export default Weddings;

@@ -1,4 +1,5 @@
-import styled from "styled-components"
+// import styled from "styled-components"
+import {Content, Container} from "./styling";
 
 const About = (props) =>{
     document.title="About Us"
@@ -18,7 +19,7 @@ const About = (props) =>{
             </p>
 
             <h2>
-                AN APPOINTMENT IS REQUIRED FOR ALL ALTERATIONS! PLEASE CALL #732-671-3800 TO SCHEDULE.
+                AN APPOINTMENT IS REQUIRED FOR ALL ALTERATIONS! PLEASE CALL (732)671-3800 TO SCHEDULE.
             <br/>
             </h2>
             <p>
@@ -32,43 +33,27 @@ const About = (props) =>{
             <p>
                 Sunday: By appointment only
                 <br/>
-                Monday: 11am - 6pm
+                Monday: By appointment only
                 <br/>
                 Tuesday: Closed
                 <br/>
-                Wednesday: 11am - 6pm
+                Wednesday: By appointment only
                 <br/>
-                Thursday: 12pm - 8pm
+                Thursday: By appointment only
                 <br/>
-                Friday: 11am - 6pm
+                Friday: By appointment only
                 <br/>
-                Saturday: 11am - 6pm
+                Saturday: By appointment only
                 <br/>    
             </p>
             <h2>LOCATION</h2>
             <p>749 Highway 35 Middletown, NJ 07748</p>
+            
+            <h2>EMAIL</h2>
+            <p>bellesbridal@hotmail.com</p>
         </Content>
     </Container>
 
 };
-
-const Container = styled.div`
-    margin-top: 160px;
-    display: flexbox;
-    flex-flow: column wrap;
-    overflow: block;
-    justify-content: center;
-    margin-bottom: 125px;
-`;
-
-const Content = styled.div`
-    width: 50%;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: space-around;
-    text-align: center;
-`;
 
 export default About;

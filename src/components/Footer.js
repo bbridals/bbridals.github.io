@@ -12,7 +12,7 @@ const Container = styled.nav`
     left:0;
     right: 0;
     bottom: 0;
-    height: 100px;
+    height: 70px;
     background-color: #f9c8dd;
     display: flex;
     justify-content: center;

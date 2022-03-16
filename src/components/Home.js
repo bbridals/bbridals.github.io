@@ -1,7 +1,8 @@
 import styled from "styled-components"
+import {Content, Container} from "./styling";
 
 const Home = (props) =>{
-    return <Container>
+    return <HomeContainer>
         <img src="/images/bridesmaids-banner.jpg" alt="Bridal Store Banner"/>
         <Content> 
         <h2>
@@ -14,25 +15,15 @@ const Home = (props) =>{
         </p>
 
         <h2>
-            (732) 671-3800
+            Please note, shopping is available by <span style={{color:"#e350a1"}}>appointment only</span>.
             <br/>
-            Please note, due to COVID-19 we will not be taking any walk-ins.
-            <br/>
-            Additionally, masks are required in store. Thank you!
-           
-            
+            Please call <span style={{color:"#e350a1"}}>(732) 671-3800</span> to schedule an appointment. Thank you!
         </h2>
         </Content>
-    </Container>
+    </HomeContainer>
 };
 
-
-const Container = styled.div`
-    margin-top: 160px;
-    display: flexbox;
-    flex-flow: column wrap;
-    overflow: block;
-    justify-content: center;
+const HomeContainer = styled(Container)`
     img{
         margin: 0;
         padding: 10px 0 10px 0;
@@ -40,14 +31,5 @@ const Container = styled.div`
     }
 `;
 
-const Content = styled.div`
-    width: 50%;
-    display: flexbox;
-    flex-flow: column wrap;
-    overflow: block;
-    justify-content: center;
-    text-align: center;
-    
-`;
 
 export default Home;

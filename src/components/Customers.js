@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import {Content, Container} from "./styling";
 
 const Customers = (props) =>{
     document.title="Our Customers"
@@ -38,25 +39,6 @@ const Customers = (props) =>{
     </Container>
     </>
 };
-
-const Container = styled.div`
-    margin-top: 160px;
-    display: flexbox;
-    flex-flow: column wrap;
-    overflow: block;
-    justify-content: center;
-    margin-bottom: 125px;
-`;
-
-const Content = styled.div`
-    width: 50%;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: space-around;
-    text-align: center;
-`;
 
 const CustomerImages = styled.img`
     margin-top: 25px;

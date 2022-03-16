@@ -13,15 +13,15 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router basename="/">
         <Header />
           <Switch>
              <Route exact path="/" component={Home} />
-             <Route exact path="/prom" component={Prom} title="Prom"/>
-             <Route exact path="/weddings" component={Weddings} />
-             <Route exact path="/customers" component={Customers} />
-             <Route exact path="/contact" component={Contact} />
-             <Route exact path="/about" component={About} />
+             <Route path="/prom" component={Prom}/>
+             <Route  path="/weddings" component={Weddings} />
+             <Route  path="/customers" component={Customers} />
+             <Route  path="/contact" component={Contact} />
+             <Route  path="/about" component={About} />
           </Switch>
           <Footer />
         </Router>

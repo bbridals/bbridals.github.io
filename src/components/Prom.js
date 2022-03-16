@@ -1,4 +1,6 @@
 import styled from "styled-components"
+import {Content, Container, BrandLogo} from "./styling";
+
 
 const Prom = (props) =>{
     document.title="Prom Dresses"
@@ -25,10 +27,10 @@ const Prom = (props) =>{
             <a href="https://www.jvn.com/prom-dresses" target="_blank" rel="noopener noreferrer">
                 <BrandLogo src="/images/prom/jvn-logo.png" />
             </a>
-            <a href="https://www.luccilu.com/collections/prom.html" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.luccilu.com/collections/lucci-lu/prom.html" target="_blank" rel="noopener noreferrer">
                 <BrandLogo src="/images/prom/lucci-lu-logo2.png" />
             </a>
-            <a href="https://primaveracouture.com/product-category/spring-prom-2021/" target="_blank" rel="noopener noreferrer">
+            <a href="https://primaveracouture.com/product-category/spring-prom-2022/" target="_blank" rel="noopener noreferrer">
                 <BrandLogo src="/images/prom/primavera-logo.png" alt="PRIMAVERA"/>
             </a>
             <a href="https://scalausa.com/collections/" target="_blank" rel="noopener noreferrer">
@@ -38,37 +40,18 @@ const Prom = (props) =>{
         </Container>
 };
 
-const Container = styled.div`
-    margin-top: 160px;
-    display: flexbox;
-    flex-flow: column wrap;
-    overflow: block;
-    justify-content: center;
-    margin-bottom: 125px;
-`;
+// const BrandLogo = styled.img`
+//     margin-top: 25px;
+//     max-width: 100%;
+//     border-radius: 4px;
+//     max-height: 90px;
+//     transition: box-shadow .2s ease-in-out, transform .2s ease-in-out;
 
-const Content = styled.div`
-    width: 50%;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: space-around;
-    text-align: center;
-`;
-
-const BrandLogo = styled.img`
-    margin-top: 25px;
-    max-width: 100%;
-    border-radius: 4px;
-    max-height: 90px;
-    transition: box-shadow .2s ease-in-out, transform .2s ease-in-out;
-
-    &:hover{
-        box-shadow: 0px 0px 20px black;
-        opacity: 1;
-        transform: scale(1.1, 1.1);
-    }
-`;
+//     &:hover{
+//         box-shadow: 0 0 30px #f075a9;
+//         opacity: 1;
+//         transform: scale(1.1, 1.1);
+//     }
+// `;
 
 export default Prom;

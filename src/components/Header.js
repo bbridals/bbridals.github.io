@@ -3,19 +3,19 @@ import styled from "styled-components";
 const Header = (props) => {    
 
     return <Nav>
-        <NavMenu style={{justifyContent: "right"}} >
+        <NavItems style={{justifyContent: "right"}} >
             <a href="/">
                 <span>HOME</span>
             </a>
-            <a href="/prom">
+            <a href="/#/prom">
                 <span>PROM</span>
             </a>
             
-            <a href="/weddings">
+            <a href="/#/weddings">
                 <span>WEDDINGS</span>
             </a>
     
-            </NavMenu>
+            </NavItems>
 
 
             <Logo> 
@@ -25,19 +25,19 @@ const Header = (props) => {
             </Logo>
             
             
-            <NavMenu style={{justifyContent: "left"}} >
+            <NavItems style={{justifyContent: "left"}} >
 
-            <a href="/customers">
+            <a href="/#/customers">
                 <span>OUR CUSTOMERS</span>
             </a>
-            {/* <a href="/contact">
+            {/* <a href="/#/contact">
                 <span>CONTACT</span>
             </a> */}
            
-            <a href="/about">
+            <a href="/#/about">
                 <span>ABOUT</span>
             </a>
-        </NavMenu>
+        </NavItems>
     </Nav>;
 };
 
@@ -53,6 +53,9 @@ const Nav = styled.nav`
     justify-content: center;
     align-content: center;
     align-items:center;
+    @media (max-width: 768px){
+            height: 70px;
+        }
 `;
 const Logo = styled.div`
         a{
@@ -70,7 +73,8 @@ const Logo = styled.div`
             display:none;
         }
 `;
-const NavMenu = styled.div`
+
+const NavItems = styled.div`
     flex: 1;
     display: flex;
     flex-flow: row nowrap;
@@ -110,7 +114,7 @@ const NavMenu = styled.div`
         transform-origin: left center;
         transform: scaleX(0);
         transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94)0s;
-        /* visibility: hidden; */
+        visibility: hidden;
         width: auto;
         }
     }
@@ -122,10 +126,12 @@ const NavMenu = styled.div`
             } 
         }
     @media (max-width: 768px){
-        span{font-size: 18px}
+        span{font-size: 14px}
     }
     }
-    
+    @media (max-width: 768px){
+        a{padding: 0px 10px;}
+    }
     
 `;
 export default Header;
