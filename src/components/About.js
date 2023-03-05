@@ -31,7 +31,7 @@ const About = (props) =>{
                 STORE HOURS:
             </h2>
             <p>
-                Sunday: By appointment only
+                Sunday: Closed
                 <br/>
                 Monday: By appointment only
                 <br/>

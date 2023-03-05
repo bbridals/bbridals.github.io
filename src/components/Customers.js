@@ -7,7 +7,7 @@ const Customers = (props) =>{
     return <>
     <Container>
     <Content>
-        <h2>Our Customers</h2>
+        <h1>Our Customers</h1>
         <h2>Jenny: Married 9/1/16</h2>
         <p>“Kim and her staff at Belle Bridals are amazing! They accommodated my rowdy bridesmaids of 8 and we found something for everyone, even my mom! They were patient and gave us great suggestions. I would shop there again for a special event, hands down!”</p>
         
@@ -34,7 +34,7 @@ const Customers = (props) =>{
                     
         <CustomerImages src="/images/customers/krystal/krystal2.png" />
         <CustomerImages src="/images/customers/krystal/krystal.png" />
-
+        <h2><br></br>Submit your story to bellesbridalnj@gmail.com to be featured!</h2>
     </Content>
     </Container>
     </>
@@ -42,7 +42,7 @@ const Customers = (props) =>{
 
 const CustomerImages = styled.img`
     margin-top: 25px;
-    max-width: 80%;
+    max-width: 60%;
     width: 100%;
     border-radius: 4px;
     /* max-height: 200px; */

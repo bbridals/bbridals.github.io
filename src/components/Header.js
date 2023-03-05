@@ -43,13 +43,13 @@ const Header = (props) => {
 
 const Nav = styled.nav`
     position:fixed;
+    background-color: white;
     top:0;
     left:0;
     right: 0;
     bottom: 0;
     height: 150px;
     display: flex;
-    position: absolute;
     justify-content: center;
     align-content: center;
     align-items:center;
@@ -69,7 +69,7 @@ const Logo = styled.div`
             z-index:auto;
             margin: 0px 20px;
         }   
-        @media (max-width: 768px){
+        @media (max-width: 1100px){
             display:none;
         }
 `;

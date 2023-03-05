@@ -6,7 +6,7 @@ const Prom = (props) =>{
     document.title="Prom Dresses"
     return <Container>
         <Content>
-            <h2>Prom Gown Designers We Carry</h2>
+            <h1>Prom Gown Designers We Carry</h1>
             <p>Click a brand to see their collection</p>
             
             <a href="https://alyceparis.com/collections/prom-dresses" target="_blank" rel="noopener noreferrer">
@@ -27,7 +27,7 @@ const Prom = (props) =>{
             <a href="https://www.jvn.com/prom-dresses" target="_blank" rel="noopener noreferrer">
                 <BrandLogo src="/images/prom/jvn-logo.png" />
             </a>
-            <a href="https://www.luccilu.com/collections/lucci-lu/prom.html" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.luccilu.com/lucci-lu/prom" target="_blank" rel="noopener noreferrer">
                 <BrandLogo src="/images/prom/lucci-lu-logo2.png" />
             </a>
             <a href="https://primaveracouture.com/product-category/spring-prom-2022/" target="_blank" rel="noopener noreferrer">

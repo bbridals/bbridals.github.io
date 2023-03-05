@@ -5,7 +5,7 @@ const Weddings = (props) =>{
     document.title="Wedding Dresses"
     return <Container>
     <Content>
-        <h2>Wedding Gown Designers We Carry</h2>
+        <h1>Wedding Gown Designers We Carry</h1>
         <p>Click a brand to see their collection</p>
         
         <a href="https://www.casablancabridal.com/collections/gowns/" target="_blank" rel="noopener noreferrer">
@@ -17,7 +17,7 @@ const Weddings = (props) =>{
         </a>
 
 
-        <h2><br/>Bridesmaids Gown Designers We Carry</h2>
+        <h1><br/>Bridesmaids Gown Designers We Carry</h1>
         <p>Click a brand to see their collection</p>
         
         <a href="https://www.alexiadesigns.com/Bridesmaids/Alexia-Designs/" target="_blank" rel="noopener noreferrer">
@@ -38,9 +38,6 @@ const Weddings = (props) =>{
         <a href="https://dessy.com/bridesmaid-dresses/" target="_blank" rel="noopener noreferrer">
             <BrandLogo src="/images/bridesmaids/dessy-logo.png" />
         </a>
-        <a href="https://gatherandgown.com/" target="_blank" rel="noopener noreferrer">
-            <BrandLogo src="/images/bridesmaids/gather-gown-logo.png" />
-        </a>
         <a href="https://www.jasminebridal.com/bridesmaids/JASMINE-BRIDESMAIDS/" target="_blank" rel="noopener noreferrer">
             <BrandLogo src="/images/bridesmaids/jasmine-logo.png" />
         </a>
@@ -48,6 +45,18 @@ const Weddings = (props) =>{
             <BrandLogo src="/images/bridesmaids/morilee-logo.png" />
         </a>
         
+        <h1><br/>Mother of the Bride/Groom Gown Designers We Carry</h1>
+        <p>Click a brand to see their collection</p>
+        
+        <a href="https://www.adriannapapell.com/collections/mother-of-the-bride-dresses" target="_blank" rel="noopener noreferrer">
+            <BrandLogo src="/images/motherofthebride/adriannapapell-logo.png" />
+        </a>
+        <a href="https://www.christinawucollection.com/collections/bridesmaid-dresses" target="_blank" rel="noopener noreferrer">
+            <BrandLogo src="/images/motherofthebride/christina-wu-logo.png" />
+        </a>
+        <a href="https://colorsdress.com/mother-of-the-bride/" target="_blank" rel="noopener noreferrer">
+            <BrandLogo src="/images/motherofthebride/marsoni-logo.png" />
+        </a>
     </Content>
     </Container>
 };

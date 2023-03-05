@@ -7,7 +7,7 @@ const Container = styled.div`
     overflow: block;
     justify-content: center;
     height: 100%;
-    margin-bottom: 125px;
+    margin-bottom: 100px;
     @media screen and (max-width: 768px){
         margin-top: 70px;
     }
@@ -34,6 +34,9 @@ export const BrandLogo = styled.img`
     max-height: 90px;
     transition: box-shadow .2s ease-in-out, transform .2s ease-in-out;
 
+    @media screen and (max-width: 768px){
+        width:60%;
+    }
     &:hover{
         box-shadow: 0 0 30px #f075a9;
         opacity: 1;
