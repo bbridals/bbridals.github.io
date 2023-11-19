@@ -20,9 +20,7 @@ const Weddings = (props) =>{
         <h1><br/>Bridesmaids Gown Designers We Carry</h1>
         <p>Click a brand to see their collection</p>
         
-        <a href="https://www.alexiadesigns.com/Bridesmaids/Alexia-Designs/" target="_blank" rel="noopener noreferrer">
-            <BrandLogo src="/images/bridesmaids/alexia-logo.png" />
-        </a>
+    
         <a href="https://www.jasminebridal.com/bridesmaids/b2/" target="_blank" rel="noopener noreferrer">
             <BrandLogo src="/images/bridesmaids/b2-logo.png" />
         </a>
@@ -31,9 +29,6 @@ const Weddings = (props) =>{
         </a>
         <a href="https://www.jasminebridal.com/bridesmaids/belsoie/" target="_blank" rel="noopener noreferrer">
             <BrandLogo src="/images/bridesmaids/belsoie-logo.png" />
-        </a>
-        <a href="https://www.billlevkoff.com/shop-dresses/all-bridesmaid-dresses/" target="_blank" rel="noopener noreferrer">
-            <BrandLogo src="/images/bridesmaids/bill-levkoff-logo.png" />
         </a>
         <a href="https://dessy.com/bridesmaid-dresses/" target="_blank" rel="noopener noreferrer">
             <BrandLogo src="/images/bridesmaids/dessy-logo.png" />
@@ -54,9 +49,16 @@ const Weddings = (props) =>{
         <a href="https://www.christinawucollection.com/collections/bridesmaid-dresses" target="_blank" rel="noopener noreferrer">
             <BrandLogo src="/images/motherofthebride/christina-wu-logo.png" />
         </a>
+        <a href="https://www.jasminebridal.com/mothers/JADE-COUTURE/" target="_blank" rel="noopener noreferrer">
+            <BrandLogo src="/images/motherofthebride/jade-couture-logo.jpg" />
+        </a>
         <a href="https://colorsdress.com/mother-of-the-bride/" target="_blank" rel="noopener noreferrer">
             <BrandLogo src="/images/motherofthebride/marsoni-logo.png" />
         </a>
+        <a href="https://colorsdress.com/mother-of-the-bride-2/" target="_blank" rel="noopener noreferrer">
+            <BrandLogo src="/images/motherofthebride/rina-di-montella-logo.png" />
+        </a>
+        
     </Content>
     </Container>
 };
